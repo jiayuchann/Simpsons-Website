@@ -4,7 +4,7 @@ session_start();
 
 $connString = "mysql:host=fdb22.awardspace.net; dbname=3383333_finalproject";
 $user = "3383333_finalproject";
-$pass = "finalProject123";
+$pass = "*************";
 $pdo = new PDO($connString, $user, $pass);
 
 $name = $_POST['user'];
