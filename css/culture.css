@@ -1,0 +1,101 @@
+.nav {
+	font-size: 15px;
+	background-color: black;
+	width: 100%;
+}
+.container-fluid {
+	background-color: #70D1FE;
+}
+.jumbotron {
+	background-color: #FED41D;
+}
+a {
+	color: white;
+}
+a:active {
+	color: blue;
+}
+.nav-link:hover {
+	color: yellow;
+	background-color: skyblue;
+}
+h3 {
+	margin-top: 4em;
+	line-height: 1.5;
+}
+#row1 {
+	background-color: #70D1FE;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+#row2 {
+	font-size: 20px;
+	background-color: #70D1FE;
+	font-family: 'Gloria Hallelujah', cursive;
+	padding: 0em 0em 3em 0em;
+}
+#row3 {
+	font-size: 20px;
+	background-color: #F14E28;
+	font-family: 'Gloria Hallelujah', cursive;
+	padding: 3em 0em 3em 0em;
+}
+#row4 {
+	font-size: 20px;
+	background-color: #ddd3ee;
+	font-family: 'Gloria Hallelujah', cursive;
+	padding: 3em 0em 3em 0em;
+}
+#row5 {
+	font-size: 20px;
+	background-color: #DCE69F;
+	font-family: 'Gloria Hallelujah', cursive;
+	padding: 3em 0em 3em 0em;
+}
+#culture {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+h2 {
+	text-align: center;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid: black;
+  text-align: center;
+  padding: 8px;
+  background-color: #d0f0c0;
+}
+img {
+	max-width: 100%;
+}
+
+li {
+	list-style-type: none;
+}
+
+footer {
+	background-color: #DCE69F;
+}
+.logo {
+	height: 4em;
+	margin-right: 2em;
+	margin-left: 2em;
+}
+#socials {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+#copyright {
+	font-family: 'Gloria Hallelujah', cursive;
+	color: white;
+}
+#to-the-top {
+	font-family: 'Gloria Hallelujah', cursive;
+}

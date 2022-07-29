@@ -1,0 +1,102 @@
+.nav {
+	background-color: black;
+	width: 100%;
+}
+.container-fluid {
+	background-color: white;
+}
+.col-md-8, .col-md-2{
+	background-color: lightgrey;
+}
+a {
+	color: white;
+}
+.nav-link:hover {
+	color: yellow;
+	background-color: skyblue;
+}
+a:active {
+	color: blue;
+}
+h3 {
+	margin-top: 2em;
+	line-height: 1.5;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+#welcome, #map {
+	width: 100%;
+}
+.card-text {
+	font-family: 'Gloria Hallelujah', cursive;
+}
+#centerColumn {
+	background-color: #DCE69F;
+}
+#leftColumn {
+	background-color: #FED90F;
+}
+#rightColumn {
+	background-color: #70D1FE;
+}
+.card-body {
+	background-color: #D1B271;
+}
+#LogInTitle, #welcomeText{
+	padding-top: 1em;
+}
+h4,#welcomeText{
+	font-family: 'Gloria Hallelujah', cursive;
+	display: flex;
+	justify-content: center;
+}
+li {
+	list-style-type: none;
+}
+footer {
+	background-color: #DCE69F;
+}
+.logo {
+	height: 4em;
+	margin-right: 2em;
+	margin-left: 2em;
+}
+#socials {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+#copyright {
+	font-family: 'Gloria Hallelujah', cursive;
+	color: white;
+}
+#to-the-top {
+	font-family: 'Gloria Hallelujah', cursive;
+}
+#comments {
+	background-color: #DCE69F;
+}
+.signUpButton {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 2em;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+	display: flex;
+	justify-content: center;
+}
+label, input{
+	font-family: 'Gloria Hallelujah', cursive;
+}
+#submit{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-weight: lighter;
+}
+.logout{
+	margin-top: 1em;
+	font-family: 'Gloria Hallelujah', cursive;
+	background-color: darkblue;
+	display: flex;
+	justify-content: center;
+}
+.logout:hover{
+	color: red;
+}

@@ -1,0 +1,206 @@
+.nav {
+	background-color: black;
+	width: 100%;
+}
+.container-fluid {
+	background-color: #70D1FE;
+}
+.jumbotron {
+	background-color: #FED41D;
+}
+a {
+	color: white;
+}
+.nav-link:hover {
+	color: yellow;
+	background-color: skyblue;
+}
+a:active {
+	color: blue;
+}
+#merchandiseLogo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+#exclusiveItemLogo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+}
+
+.detail, .btn, h4, h5, .cart-item-title, .cart-price, .btn-danger, .purchase-button, .cart-total-price, .cart-quantity-input{
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+h4{
+	padding-top: 0.5em;
+}
+
+.product-grid{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.product-grid:hover{
+	background-color: #F14E28;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.image {
+	position: relative;
+}
+
+.overlay{
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	opacity:0;
+	transition: .6s ease-out;
+	background-color: rgba(67, 68, 68, 0.7);
+}
+
+.image:hover .overlay{
+	opacity:1;
+}
+
+.detail{
+	font-size-adjust: auto;
+	position:absolute;
+	top: 50%;
+	left: 30%;
+	color: #FED41D;
+}
+
+.btn{
+	background-color: #D6E69F;
+	color: black;
+	font-weight: bold;
+	border: 1px solid lightblue;
+	border-radius: 0;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.btn:hover{
+	background-color: #11BB66;
+}
+
+#logo1 {
+	position: absolute;
+	z-index: 5;
+}
+
+li {
+	list-style-type: none;
+}
+
+footer {
+	background-color: #DCE69F;
+}
+.logo {
+	height: 4em;
+	margin-right: 2em;
+	margin-left: 2em;
+}
+#socials {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+#copyright {
+	font-family: 'Gloria Hallelujah', cursive;
+	color: white;
+}
+#to-the-top {
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+#cartLogo{
+	margin-top: 5em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+}
+
+.cartSection{
+	background-color: #FFD521;
+}
+
+.cart-row{
+	display: flex;
+		border-bottom: 4px solid pink;
+}
+
+.cart-column{
+	display: flex;
+	align-items: center;
+	margin-right: 1.5em;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.cart-item{
+	width: 50%;
+}
+
+.cart-price{
+	width: 20%;
+	font-size: 1.2em;
+}
+
+.cart-item-title{
+	margin-left: .5em;
+	font-size: 1.2em;
+}
+
+.cart-item-image{
+	width: 100px;
+	height: auto;
+}
+
+.cart-quantity-input{
+	padding-left:10px;
+	margin-left: 100px;
+	margin-right: 25px;
+	width:40px;
+	background-color: #D6E69F;
+}
+
+.btn-danger{
+	background-color: #D6E69F;
+	color: black;
+	font-weight: bold;
+	border: 1px solid lightblue;
+	border-radius: .5em;
+	margin-top: 47px;
+	height: 50%;
+}
+
+.cart-total-price{
+	margin-left: 0.75em;
+}
+
+.purchase-button{
+	color: purple;
+	margin-bottom: 2em;
+	order-radius: 0;
+	width: 50%;
+	margin-top: 20px;
+}
+
+select{
+	background-color: lightblue;
+	border: 5px;
+}
