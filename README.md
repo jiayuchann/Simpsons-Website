@@ -2,7 +2,7 @@
 
 Link: http://welcometospringfield.atwebpages.com/
 
-Goals
+
 Apply all the fundamental knowledge gathered across the semester( HTML, CSS, JavaScript and jQuery, PHP, databases and security) to the design, implementation, and presentation of a final project.
 
 Instructions
