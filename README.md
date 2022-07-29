@@ -14,6 +14,7 @@ Instructions
 - Keep it simple and do not overwhelm yourselves, make sure the basics are covered before starting miscellaneous features.
 
 Technologies and Concepts
+
 Each team will make use of the technologies explained in class, as well as Internet resources and the course book to complete the final project. Such technologies are:
 - HTML5
 - CSS and Bootstrap
